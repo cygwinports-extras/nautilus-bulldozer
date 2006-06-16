@@ -1,0 +1,12 @@
+ORIG_PN=bulldozer
+
+DESCRIPTION="Nautilus extension for Makefile build systems"
+HOMEPAGE="http://taschenorakel.de/mathias/bulldozer/"
+SRC_URI="http://taschenorakel.de/svn/repos/${ORIG_PN}/releases/${ORIG_PN}-${PV}.tar.bz2"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake -j1
+}
+

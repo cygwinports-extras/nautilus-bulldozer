@@ -1,0 +1,111 @@
+nautilus-bulldozer
+------------------------------------------
+Bulldozer is an extension for the Nautilus File Manager integrating your
+build system. If it finds some build script in your current directory,
+it extends Nautilus by buttons and menu entries for accessing the build
+targets found in the build script.
+
+Currently only make scripts are supported, but support for alternate
+tools like Ant and NAnt is planed.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  gnome-vfs2-2.12.2-1
+  gtk2-x11-2.8.17-1
+  nautilus-2.12.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  binutils-20050610-1
+  cygport-0.1.92-1
+  gcc-core-3.4.4-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://taschenorakel.de/mathias/bulldozer/
+
+Canonical download:
+  http://taschenorakel.de/svn/repos/bulldozer/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack nautilus-bulldozer-0.2.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./nautilus-bulldozer-0.2.3-X.sh all
+
+This will create:
+  /usr/src/nautilus-bulldozer-0.2.3-X-src.tar.bz2
+  /usr/src/nautilus-bulldozer-0.2.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/nautilus/extensions-1.0/cygnautilus-bulldozer-extension.dll
+  /usr/share/doc/Cygwin/nautilus-bulldozer-0.2.3.README
+  /usr/share/doc/nautilus-bulldozer-0.2.3/AUTHORS
+  /usr/share/doc/nautilus-bulldozer-0.2.3/COPYING
+  /usr/share/doc/nautilus-bulldozer-0.2.3/NEWS
+  /usr/share/doc/nautilus-bulldozer-0.2.3/README
+  /usr/share/doc/nautilus-bulldozer-0.2.3/TODO
+  /usr/share/gtk-doc/html/bulldozer/BulldozerAntScript.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerMakefile.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerMaven2Script.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerMavenScript.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerMonitor.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerNantScript.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerScript.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerTarget.html
+  /usr/share/gtk-doc/html/bulldozer/BulldozerXmlScript.html
+  /usr/share/gtk-doc/html/bulldozer/DevelopersGuide.html
+  /usr/share/gtk-doc/html/bulldozer/build.png
+  /usr/share/gtk-doc/html/bulldozer/bulldozer-BulldozerExtension.html
+  /usr/share/gtk-doc/html/bulldozer/bulldozer.devhelp
+  /usr/share/gtk-doc/html/bulldozer/ch01.html
+  /usr/share/gtk-doc/html/bulldozer/ch02.html
+  /usr/share/gtk-doc/html/bulldozer/check.png
+  /usr/share/gtk-doc/html/bulldozer/clean.png
+  /usr/share/gtk-doc/html/bulldozer/deploy.png
+  /usr/share/gtk-doc/html/bulldozer/home.png
+  /usr/share/gtk-doc/html/bulldozer/index.html
+  /usr/share/gtk-doc/html/bulldozer/index.sgml
+  /usr/share/gtk-doc/html/bulldozer/install.png
+  /usr/share/gtk-doc/html/bulldozer/left.png
+  /usr/share/gtk-doc/html/bulldozer/package.png
+  /usr/share/gtk-doc/html/bulldozer/rebuild.png
+  /usr/share/gtk-doc/html/bulldozer/redeploy.png
+  /usr/share/gtk-doc/html/bulldozer/right.png
+  /usr/share/gtk-doc/html/bulldozer/style.css
+  /usr/share/gtk-doc/html/bulldozer/undeploy.png
+  /usr/share/gtk-doc/html/bulldozer/uninstall.png
+  /usr/share/gtk-doc/html/bulldozer/up.png
+  /usr/share/pixmaps/bulldozer/build.png
+  /usr/share/pixmaps/bulldozer/check.png
+  /usr/share/pixmaps/bulldozer/clean.png
+  /usr/share/pixmaps/bulldozer/deploy.png
+  /usr/share/pixmaps/bulldozer/install.png
+  /usr/share/pixmaps/bulldozer/package.png
+  /usr/share/pixmaps/bulldozer/rebuild.png
+  /usr/share/pixmaps/bulldozer/redeploy.png
+  /usr/share/pixmaps/bulldozer/undeploy.png
+  /usr/share/pixmaps/bulldozer/uninstall.png
+
+------------------
+
+Port Notes:
+
+----- version 0.2.3-2 -----
+Renamed package nautilus-bulldozer.
+
+----- version 0.2.3-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

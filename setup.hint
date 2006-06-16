@@ -1,0 +1,10 @@
+category: Gnome
+requires: cygwin gnome-vfs2 gtk2-x11 nautilus
+sdesc: "Nautilus extension for Makefile build systems"
+ldesc: "Bulldozer is an extension for the Nautilus File Manager
+integrating your build system. If it finds some build script in your
+current directory, it extends Nautilus by buttons and menu entries for
+accessing the build targets found in the build script.
+
+Currently only make scripts are supported, but support for alternate
+tools like Ant and NAnt is planed."
