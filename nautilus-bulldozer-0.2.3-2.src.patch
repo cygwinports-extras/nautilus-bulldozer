@@ -1,4 +1,3 @@
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' bulldozer-0.2.3-orig/Makefile bulldozer-0.2.3/Makefile
 --- bulldozer-0.2.3-orig/Makefile	2005-10-03 05:31:26.000000000 -0500
 +++ bulldozer-0.2.3/Makefile	2006-01-05 15:58:04.000000000 -0600
 @@ -10,7 +10,7 @@
